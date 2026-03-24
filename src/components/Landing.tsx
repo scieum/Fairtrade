@@ -17,7 +17,7 @@ const ROUND_OPTIONS: { size: RoundSize; label: string }[] = [
 export default function Landing({ onStart }: LandingProps) {
   return (
     <div
-      className="flex items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat"
+      className="flex items-end justify-center min-h-screen bg-cover bg-center bg-no-repeat pb-24"
       style={{ backgroundImage: "url('/Home.png')" }}
     >
       <div className="flex gap-4">
